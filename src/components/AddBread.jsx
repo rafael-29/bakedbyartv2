@@ -20,7 +20,7 @@ const [editId, setEditId] = useState()
 
 const fetchBreads = async () => {
 try {
-  const {data} = await axios.get('http://localhost:8080/breads')
+  const {data} = await axios.get('https://bakedbyart.herokuapp.com/breads')
 
   setAllBread(data)
 } catch (error) {
@@ -85,14 +85,14 @@ const toSend = {
 }
 
 if(!isEdit){
-    axios.post('http://localhost:8080/breads/addbread', toSend)
+    axios.post('https://bakedbyart.herokuapp.com/breads/addbread', toSend)
     .then( (result) => {
     alert('added successfully')
     fetchBreads();
     })
     .catch( () => console.log('no internet'))
 }else{
-    axios.patch(`http://localhost:8080/breads/update/${editId}`, toSend)
+    axios.patch(`https://bakedbyart.herokuapp.com/breads/update/${editId}`, toSend)
     .then( result => {
     console.log(result)
         setFormData({
