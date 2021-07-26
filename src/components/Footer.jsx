@@ -28,10 +28,10 @@ return (
         <div className="footer-categ">
             <ul className="footer-nav">
                 <li className="footer-li">
-                <a href="http://localhost:3000/#aboutus" className="footer-a">ABOUT</a>
+                <a href="https://bakedbyart.vercel.app/#aboutus" className="footer-a">ABOUT</a>
                 </li>
                 <li className="footer-li">
-                    <a href="http://localhost:3000/#allmenu" className="footer-a">MENU</a>
+                    <a href="https://bakedbyart.vercel.app/#allmenu" className="footer-a">MENU</a>
                 </li>
                 <li className="footer-li" onClick={() => setContactOpen(!contactOpen)}>
                     <span style={{cursor: 'pointer'}} className="footer-a">CUSTOM ORDER</span>

@@ -19,7 +19,7 @@ const renderNotLogIn = () => (
 <Link className="menu-link" to="/">HOME</Link>
 </li>
 <li className="menu-li">
-<a className="menu-link" href="http://localhost:3000/#aboutus">ABOUT</a>
+<a className="menu-link" href="https://bakedbyart.vercel.app/#aboutus">ABOUT</a>
 </li>
 <li className="menu-li">
 <Link className="menu-link" to="/signin">SIGN IN</Link>
@@ -86,7 +86,7 @@ return (
 
             {
                 !user ? <div className="menu-btn">
-                <a className="menu-btn-link first-link" href="http://localhost:3000/#allmenu">OUR PRODUCT</a>
+                <a className="menu-btn-link first-link" href="https://bakedbyart.vercel.app/#allmenu">OUR PRODUCT</a>
                 <button style={{
                     border: 'none',
                     background: 'none',

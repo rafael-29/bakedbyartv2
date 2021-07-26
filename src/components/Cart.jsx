@@ -100,7 +100,7 @@ const renderEmpty = () => (
 
 return (
 <div className="cart-page page">
-    <a href="http://localhost:3000/#allmenu" className="cart-backbtn"><i className="fas fa-caret-left"></i> BACK</a>
+    <a href="https://bakedbyart.vercel.app/#allmenu" className="cart-backbtn"><i className="fas fa-caret-left"></i> BACK</a>
     {cartImg === null ? renderEmpty() : renderCart()}
     
 </div>
